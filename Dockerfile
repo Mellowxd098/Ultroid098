@@ -15,6 +15,7 @@ WORKDIR /root/Mellowxd098/
 
 # install main requirements.
 COPY requirements.txt /deploy/
+RUN pip  install --upgrade pip 
 RUN pip3 install --no-cache-dir -r /deploy/requirements.txt
 
 
