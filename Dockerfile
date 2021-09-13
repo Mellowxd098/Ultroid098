@@ -10,7 +10,7 @@ ENV TZ=Asia/Kolkata
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # clone the repo and change workdir
-RUN git clone https://github.com/Mellowxd098/Ultroid098.git /root/Mellowxd098/
+RUN git clone https://github.com/Mellowxd098/xd.git /root/Mellowxd098/
 WORKDIR /root/Mellowxd098/
 
 # install main requirements.
